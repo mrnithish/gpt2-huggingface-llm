@@ -42,25 +42,19 @@ git clone https://github.com/yourusername/gpt2-text-generation.git
 
    
 ```bash
-cd gpt2-text-generation
-
-   
+cd gpt2-huggingface-llm
 ```
 
 4.	Configure your environment variables by creating a .env file with the necessary settings. An example .env file might look like this:
 
 ```bash
 HUGGING_FACE_API_KEY=your_hugging_face_api_key
-
-   
-```bash
+```
 
 4.	Run the Python script:
    
 ```bash
-python text_generation.py
-
-   
+python gpt2.py
 ```
 
 5.	Follow the prompts to specify the text generation parameters, including length and style. 
