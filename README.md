@@ -5,7 +5,7 @@ This Python project harnesses the power of the GPT-2 model from Hugging Face for
 ## Libraries Used
 
 - Hugging Face Transformers (for GPT-2 model)
-- LLM (Language Model Layer)
+- LLM (Language Model Layer) 
 - dotenv (for environment variable configuration)
 - langchain (for language processing)
 
@@ -30,14 +30,15 @@ You can install these libraries using pip:
 
 ```bash
 pip install transformers llm python-dotenv langchain
+```
+##Usage
 
-Usage
-
-	1.	Clone this repository to your local machine:
-
+1.	Clone this repository to your local machine:
+   
+```bash
 git clone https://github.com/yourusername/gpt2-text-generation.git
-
-	2.	Navigate to the project directory:
+```
+2.	Navigate to the project directory:
 
 cd gpt2-text-generation
 
